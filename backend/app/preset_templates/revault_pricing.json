@@ -1,0 +1,57 @@
+{
+  "id": "revault_pricing",
+  "name": "REVAULT E-commerce Pricing",
+  "category": "Commerce & Retail",
+  "description": "Simulate consumer, reseller and analyst reactions to the launch of REVAULT’s limited‑edition sneaker and forecast the average resale price.",
+  "icon": "shopping-cart",
+  "difficulty": "medium",
+  "estimated_agents": 30,
+  "estimated_rounds": 36,
+  "platforms": [
+    "twitter",
+    "reddit",
+    "polymarket"
+  ],
+  "tags": [
+    "commerce",
+    "retail",
+    "sneakers",
+    "pricing",
+    "revault"
+  ],
+  "simulation_requirement": "Simulate the market reaction to REVAULT releasing 1,000 pairs of the limited‑edition ‘Chrono’ sneaker at an MSRP of $150. Track how sneakerheads, fashion influencers, resellers, retail investors and general consumers debate the design, pricing and resale potential over the first 48 hours. Focus on supply–demand dynamics, hype cycles, perceived fairness of pricing and whether the average resale price will exceed $200.",
+  "seed_document": "# REVAULT Announces 'Chrono' — Limited Edition Swarm-Designed Sneaker\n\n## Product Overview\nREVAULT, the leader in agentic-economy commerce, has announced the 'Chrono', a limited-edition sneaker designed via swarm intelligence. Only 1,000 pairs will be produced, featuring a unique 'liquid-metal' finish and integrated NFC authentication linked to the Base blockchain.\n\n## Key Specifications\n- Production Run: 1,000 pairs (individually numbered)\n- Materials: Recycled ocean plastic mesh + bio-based synthetic leather\n- Tech: Embedded 'Vault-Link' NFC chip for digital twin ownership\n- Design: Swarm-optimized for ergonomic performance and aesthetic rarity\n- MSRP: $150\n- Release Date: Friday, May 22nd, 2026\n- Distribution: Exclusive drop via the REVAULT app\n\n## Market Context\n- REVAULT's last drop (the 'Nexus' runner) sold out in 42 seconds and currently maintains a 2.5x resale premium.\n- Competitor 'Hype-X' recently released a similar limited run at $220, which is currently trading at MSRP on secondary markets.\n- Market sentiment for swarm-designed goods is at an all-time high following the success of the $BNKR ecosystem.\n- Resale platforms (StockX, GOAT) have already listed the 'Chrono' as a 'Most Wanted' upcoming release.\n\n## Counterfactual Scenarios to Watch\n- Celebrity Endorsement: Rumors of a major NBA star wearing the Chrono during the playoffs.\n- Supply Glitch: Potential manufacturing delay could reduce the initial drop to 500 pairs.\n- Price Drop: REVAULT considering a $30 MSRP reduction for early $BNKR holders.",
+  "recommended_settings": {
+    "enable_twitter": true,
+    "enable_reddit": true,
+    "enable_polymarket": true
+  },
+  "counterfactual_branches": [
+    {
+      "id": "celebrity_endorsement",
+      "name": "Celebrity Endorsement",
+      "trigger_round": 12,
+      "injection_message": "A famous NBA star was just spotted wearing the REVAULT Chrono in a pre-game tunnel walk. The photo is going viral on Twitter."
+    },
+    {
+      "id": "supply_glitch",
+      "name": "Supply Glitch",
+      "trigger_round": 18,
+      "injection_message": "REVAULT just announced a manufacturing delay. Only 500 pairs will be available for the initial drop instead of 1,000."
+    },
+    {
+      "id": "price_drop",
+      "name": "Price Drop",
+      "trigger_round": 6,
+      "injection_message": "REVAULT unexpectedly announced a $30 MSRP reduction for all early $BNKR token holders."
+    }
+  ],
+  "i18n": {
+    "zh-CN": {
+      "name": "REVAULT 电商定价",
+      "category": "商业与零售",
+      "description": "模拟消费者、转售商和分析师对 REVAULT 限量版运动鞋发布的反应，并预测平均转售价格。",
+      "tags": ["商业", "零售", "运动鞋", "定价", "revault"]
+    }
+  }
+}
