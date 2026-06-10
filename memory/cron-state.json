@@ -1,11 +1,11 @@
 {
   "monitor-runners": {
     "last_status": "failed",
-    "last_failed": "2026-06-10T19:58:44Z",
-    "total_runs": 1,
+    "last_failed": "2026-06-10T20:04:28Z",
+    "total_runs": 2,
     "total_successes": 0,
-    "total_failures": 1,
-    "consecutive_failures": 1,
+    "total_failures": 2,
+    "consecutive_failures": 2,
     "success_rate": 0
   }
 }
