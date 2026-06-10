@@ -1,0 +1,624 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Runners Monitor",
+        "description": "verdict: MIXED — 2026-06-10"
+      },
+      "children": [
+        "token-1",
+        "sep-1",
+        "token-2",
+        "sep-2",
+        "token-3",
+        "sep-3",
+        "token-4",
+        "sep-4",
+        "token-5",
+        "sep-5",
+        "sources-section",
+        "sep-6",
+        "vibe-section"
+      ]
+    },
+    "token-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-1-header",
+        "token-1-stats",
+        "token-1-desc"
+      ]
+    },
+    "token-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-1",
+        "text-1-name",
+        "stat-1-24h"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "text-1-name": {
+      "type": "Text",
+      "props": {
+        "text": "LOCKIN (solana)",
+        "variant": "lead"
+      }
+    },
+    "stat-1-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+124%",
+        "trend": "up"
+      }
+    },
+    "token-1-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-1-vol",
+        "stat-1-liq",
+        "stat-1-fdv",
+        "stat-1-h1",
+        "stat-1-ratio"
+      ]
+    },
+    "stat-1-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$8.2m"
+      }
+    },
+    "stat-1-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$450k"
+      }
+    },
+    "stat-1-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$12m"
+      }
+    },
+    "stat-1-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+12%",
+        "trend": "up"
+      }
+    },
+    "stat-1-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "2400:1100"
+      }
+    },
+    "token-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "newly launched, strong breakout with high volume-to-liquidity ratio",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-2-header",
+        "token-2-stats",
+        "token-2-desc"
+      ]
+    },
+    "token-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-2",
+        "text-2-name",
+        "stat-2-24h"
+      ]
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEEP-LIQ"
+      }
+    },
+    "text-2-name": {
+      "type": "Text",
+      "props": {
+        "text": "PEPE (eth)",
+        "variant": "lead"
+      }
+    },
+    "stat-2-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+8.2%",
+        "trend": "up"
+      }
+    },
+    "token-2-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-2-vol",
+        "stat-2-liq",
+        "stat-2-fdv",
+        "stat-2-h1",
+        "stat-2-ratio"
+      ]
+    },
+    "stat-2-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$145m"
+      }
+    },
+    "stat-2-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$12m"
+      }
+    },
+    "stat-2-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$4.2b"
+      }
+    },
+    "stat-2-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+0.5%",
+        "trend": "up"
+      }
+    },
+    "stat-2-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "8500:8200"
+      }
+    },
+    "token-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "massive volume on deep liquidity, lower potential yield but high stability",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-3-header",
+        "token-3-stats",
+        "token-3-desc"
+      ]
+    },
+    "token-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-3",
+        "text-3-name",
+        "stat-3-24h"
+      ]
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "CONTINUATION"
+      }
+    },
+    "text-3-name": {
+      "type": "Text",
+      "props": {
+        "text": "MOTHER (solana)",
+        "variant": "lead"
+      }
+    },
+    "stat-3-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+42%",
+        "trend": "up"
+      }
+    },
+    "token-3-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-3-vol",
+        "stat-3-liq",
+        "stat-3-fdv",
+        "stat-3-h1",
+        "stat-3-ratio"
+      ]
+    },
+    "stat-3-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$4.5m"
+      }
+    },
+    "stat-3-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$820k"
+      }
+    },
+    "stat-3-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$55m"
+      }
+    },
+    "stat-3-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+4.2%",
+        "trend": "up"
+      }
+    },
+    "stat-3-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "1200:800"
+      }
+    },
+    "token-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "sustained momentum with solid volume support",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-4-header",
+        "token-4-stats",
+        "token-4-desc"
+      ]
+    },
+    "token-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-4",
+        "text-4-name",
+        "stat-4-24h"
+      ]
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "MICRO-SPEC"
+      }
+    },
+    "text-4-name": {
+      "type": "Text",
+      "props": {
+        "text": "BILLY (solana)",
+        "variant": "lead"
+      }
+    },
+    "stat-4-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+215%",
+        "trend": "up"
+      }
+    },
+    "token-4-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-4-vol",
+        "stat-4-liq",
+        "stat-4-fdv",
+        "stat-4-h1",
+        "stat-4-ratio"
+      ]
+    },
+    "stat-4-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$1.2m"
+      }
+    },
+    "stat-4-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$85k"
+      }
+    },
+    "stat-4-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$2.4m"
+      }
+    },
+    "stat-4-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "-2.1%",
+        "trend": "down"
+      }
+    },
+    "stat-4-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "600:450"
+      }
+    },
+    "token-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "high-yield potential Micro-cap, wait for consolidation",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-5-header",
+        "token-5-stats",
+        "token-5-desc"
+      ]
+    },
+    "token-5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-5",
+        "text-5-name",
+        "stat-5-24h"
+      ]
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "CONTINUATION"
+      }
+    },
+    "text-5-name": {
+      "type": "Text",
+      "props": {
+        "text": "WIF (solana)",
+        "variant": "lead"
+      }
+    },
+    "stat-5-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+15%",
+        "trend": "up"
+      }
+    },
+    "token-5-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-5-vol",
+        "stat-5-liq",
+        "stat-5-fdv",
+        "stat-5-h1",
+        "stat-5-ratio"
+      ]
+    },
+    "stat-5-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$85m"
+      }
+    },
+    "stat-5-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$8.5m"
+      }
+    },
+    "stat-5-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$2.5b"
+      }
+    },
+    "stat-5-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+1.2%",
+        "trend": "up"
+      }
+    },
+    "stat-5-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "5200:4800"
+      }
+    },
+    "token-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "major runner maintaining steady climb",
+        "variant": "caption"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-label",
+        "sources-text"
+      ]
+    },
+    "sources-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "gt-global=ok | gt-solana=ok | gt-eth=ok | gt-base=ok | gt-bsc=ok | gt-arbitrum=ok",
+        "variant": "caption"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "vibe-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vibe-label",
+        "vibe-text"
+      ]
+    },
+    "vibe-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Vibe",
+        "level": "h4"
+      }
+    },
+    "vibe-text": {
+      "type": "Text",
+      "props": {
+        "text": "market is favoring newly launched solana coins with high volume-to-mcap ratios",
+        "variant": "body"
+      }
+    }
+  }
+}
