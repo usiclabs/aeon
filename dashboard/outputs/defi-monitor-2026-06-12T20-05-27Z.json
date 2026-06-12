@@ -1,0 +1,281 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Monitor — Music Crypto Tokens — 2026-06-12"
+      },
+      "children": [
+        "sep-1",
+        "stack-tokens",
+        "sep-2",
+        "stack-overall"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-tokens": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-1",
+        "token-2",
+        "token-3",
+        "token-4"
+      ]
+    },
+    "token-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-audio",
+        "stack-audio-stats"
+      ]
+    },
+    "heading-audio": {
+      "type": "Heading",
+      "props": {
+        "text": "Audius (AUDIO) (Ethereum)",
+        "level": "h3"
+      }
+    },
+    "stack-audio-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-audio-price",
+        "stat-audio-mcap",
+        "stat-audio-vol"
+      ]
+    },
+    "stat-audio-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0153"
+      }
+    },
+    "stat-audio-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$21.83M"
+      }
+    },
+    "stat-audio-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$2.73M"
+      }
+    },
+    "token-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-gala",
+        "stack-gala-stats",
+        "alert-gala"
+      ]
+    },
+    "heading-gala": {
+      "type": "Heading",
+      "props": {
+        "text": "Gala Music (MUSIC) (GalaChain + Ethereum)",
+        "level": "h3"
+      }
+    },
+    "stack-gala-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-gala-price",
+        "stat-gala-mcap",
+        "stat-gala-24h"
+      ]
+    },
+    "stat-gala-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.00102"
+      }
+    },
+    "stat-gala-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$164K"
+      }
+    },
+    "stat-gala-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+29.18%",
+        "trend": "up"
+      }
+    },
+    "alert-gala": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "Strong recovery after Feb ATL"
+      }
+    },
+    "token-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-virtuals",
+        "stack-virtuals-stats",
+        "alert-virtuals"
+      ]
+    },
+    "heading-virtuals": {
+      "type": "Heading",
+      "props": {
+        "text": "Music by Virtuals (MUSIC) (Base)",
+        "level": "h3"
+      }
+    },
+    "stack-virtuals-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-virtuals-price",
+        "stat-virtuals-mcap"
+      ]
+    },
+    "stat-virtuals-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.000124"
+      }
+    },
+    "stat-virtuals-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$124K"
+      }
+    },
+    "alert-virtuals": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Creator retains control over parameters"
+      }
+    },
+    "token-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-wav3",
+        "stack-wav3-stats",
+        "alert-wav3"
+      ]
+    },
+    "heading-wav3": {
+      "type": "Heading",
+      "props": {
+        "text": "WAV3 (Base)",
+        "level": "h3"
+      }
+    },
+    "stack-wav3-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-wav3-price",
+        "stat-wav3-mcap"
+      ]
+    },
+    "stat-wav3-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0000426"
+      }
+    },
+    "stat-wav3-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$42.6K"
+      }
+    },
+    "alert-wav3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Extreme illiquidity"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-overall": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-overall",
+        "text-overall"
+      ]
+    },
+    "heading-overall": {
+      "type": "Heading",
+      "props": {
+        "text": "Overall Assessment",
+        "level": "h3"
+      }
+    },
+    "text-overall": {
+      "type": "Text",
+      "props": {
+        "text": "High volatility, low liquidity. Speculative only.",
+        "variant": "lead"
+      }
+    }
+  }
+}
