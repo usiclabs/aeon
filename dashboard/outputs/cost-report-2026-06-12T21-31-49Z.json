@@ -1,0 +1,135 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "Cost Report"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "subtitle_heading",
+        "metrics_stack",
+        "sep1",
+        "heading_top",
+        "table_top",
+        "sep2",
+        "text_note",
+        "link_full"
+      ]
+    },
+    "subtitle_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2026-06-12 (last 7 days)",
+        "level": "h3"
+      }
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat1",
+        "stat2",
+        "stat3",
+        "stat4"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "7-Day Spend",
+        "value": "$0.07"
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Runs",
+        "value": "2"
+      }
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "Anomalies",
+        "value": "0"
+      }
+    },
+    "stat4": {
+      "type": "Stat",
+      "props": {
+        "label": "30-Day Projection",
+        "value": "$0.30"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_top": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 2 by Cost",
+        "level": "h3"
+      }
+    },
+    "table_top": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Cost",
+          "Runs"
+        ],
+        "rows": [
+          [
+            "monitor-runners",
+            "$0.0574",
+            "1"
+          ],
+          [
+            "defi-monitor",
+            "$0.0134",
+            "1"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "No optimization levers found this week.",
+        "variant": "body"
+      }
+    },
+    "link_full": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full report",
+        "href": "articles/cost-report-2026-06-12.md"
+      }
+    }
+  }
+}
