@@ -1,0 +1,21 @@
+watches:
+  - label: Audius Token Pool
+    address: "0x7b4238261A8b4a8c51f5F5BdDbdF1D78c9F59D4e"
+    chain: ethereum
+    rpc_url: https://eth.llamarpc.com
+    type: pool
+    threshold: 0.05
+
+  - label: Noise Token
+    address: "0x0000000000000000000000000000000000000000"
+    chain: ethereum
+    rpc_url: https://eth.llamarpc.com
+    type: contract
+    threshold: 1.0
+
+  - label: Music NFT Marketplace
+    address: "0x000000000000000000000000000000000000dead"
+    chain: ethereum
+    rpc_url: https://eth.llamarpc.com
+    type: contract
+    threshold: 0.1
