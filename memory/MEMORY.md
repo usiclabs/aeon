@@ -7,6 +7,7 @@
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
+| 2026-06-14 | Harmony on the Ledger: The State of Onchain Music in 2026 | Onchain Music, NFTs, AI |
 
 ## Recent Digests
 | Date | Type | Key Topics |
