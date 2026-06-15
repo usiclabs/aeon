@@ -1,0 +1,152 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "System health report"
+      },
+      "children": [
+        "failures_stack",
+        "sep1",
+        "stalled_stack",
+        "sep2",
+        "quality_stack",
+        "sep3",
+        "status_stack"
+      ]
+    },
+    "failures_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "failures_heading",
+        "farcaster_alert",
+        "heartbeat_alert"
+      ]
+    },
+    "failures_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔴 Failed",
+        "level": "h3"
+      }
+    },
+    "farcaster_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "farcaster-digest",
+        "message": "5 days ago • 0% success",
+        "type": "error"
+      }
+    },
+    "heartbeat_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "heartbeat",
+        "message": "3 days ago • 0% success",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stalled_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stalled_heading",
+        "pr_alert"
+      ]
+    },
+    "stalled_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 Stalled",
+        "level": "h3"
+      }
+    },
+    "pr_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "PR bankr-custom-aeon",
+        "message": "Open 29 days",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quality_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quality_heading",
+        "quality_alert"
+      ]
+    },
+    "quality_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 Quality",
+        "level": "h3"
+      }
+    },
+    "quality_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "monitor-runners",
+        "message": "25% success rate",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status_heading",
+        "status_stat"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status Page",
+        "level": "h3"
+      }
+    },
+    "status_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "DEGRADED",
+        "trend": "down"
+      }
+    }
+  }
+}
